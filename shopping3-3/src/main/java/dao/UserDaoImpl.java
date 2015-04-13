@@ -12,7 +12,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-
+//File로 읽기 1차 숙제 userID Password Name 형태로 5계정정도 만들기
 public class UserDaoImpl implements UserDao {
 	private static final String SELECT_BY_USERID_PASSWORD = "SELECT user_id, password FROM user_account WHERE user_id = ? AND password = ?";
 	//private SimpleJdbcTemplate stemplate;
